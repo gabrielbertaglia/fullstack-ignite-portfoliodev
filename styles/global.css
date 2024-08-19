@@ -17,4 +17,40 @@
   --gray-400: #878EA1;
   --gray-500: #C0C4CE;
   --gray-600: #E2E4E9;
+
+  --font-family-asap: "Asap", sans-serif;
+  --font-family-inconsolata: "Inconsolata", monospace;
+  --font-family-maven-pro: "Maven Pro", sans-serif;
+
+  --title-lg: 700 56px/1.2 var(--font-family-asap);
+  --title-md: 700 24px/1.2 var(--font-family-asap);
+  --title-sm: 700 16px/1.2 var(--font-family-asap);
+
+  --subtitle: 400 20px/1.2 var(--font-family-inconsolata);
+
+  --text-md: 400 16px/1.4 var(--font-family-maven-pro);
+  --text-sm: 400 14px/1.4 var(--font-family-maven-pro);
+
+}
+
+body {
+  background-color: var(--gray-200);
+  color: var(--gray-400);
+  font: var(--text-md);
+}
+
+h1 {
+  font: var(--title-lg);
+}
+
+h2 {
+  font: var(--title-md);
+}
+
+h3 {
+  font: var(--title-sm);
+}
+
+body {
+  font: var(--title-md);
 }
