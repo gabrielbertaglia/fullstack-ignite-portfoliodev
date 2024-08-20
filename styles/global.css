@@ -51,6 +51,8 @@ h3 {
   font: var(--title-sm);
 }
 
-body {
-  font: var(--title-md);
+.container {
+  max-width: 1040px;
+  padding-inline: 32px;
+  /* margin-inline: auto; */
 }
