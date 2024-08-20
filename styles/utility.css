@@ -1,7 +1,23 @@
+.text-align-center {
+  text-align: center;
+}
+
 .red-color {
   color: var(--red);
 }
 
 .purple-color {
   color: var(--purple);
+}
+
+.text-sm {
+  font: var(--text-sm);
+}
+
+.text-md {
+  font: var(--text-md);
+}
+
+.subtitle {
+  font: var(--subtitle);
 }

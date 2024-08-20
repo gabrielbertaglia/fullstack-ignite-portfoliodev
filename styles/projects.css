@@ -1,0 +1,39 @@
+.projects {
+  padding-bottom: 144px;
+  h2 {
+    padding-block: 8px 50px;
+    color: var(--gray-600);
+  }
+}
+
+.card {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+
+  background-color: var(--gray-300);
+  padding: 12px 12px 17px 12px;
+
+  img {
+    width: 306px;
+    height: 156px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+
+  h3 {
+    color: var(--gray-600);
+    padding-block: 24px 8px;
+  }
+
+  .title-sm {
+    color: var(--gray-500);
+  }
+
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}

@@ -51,8 +51,14 @@ h3 {
   font: var(--title-sm);
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .container {
   max-width: 1040px;
   padding-inline: 32px;
-  /* margin-inline: auto; */
+  margin-inline: auto;
 }
+
