@@ -1,0 +1,36 @@
+#my-services {
+  background-color: var(--gray-100);
+
+  padding-block: 88px 120px;
+
+  h2 {
+    color: var(--gray-600);
+  }
+}
+
+.padding-76 {
+  /* padding-inline: 76px; */
+  padding-top: 56px;
+}
+
+.card-services {
+  border: 2px solid var(--gray-200);
+  border-radius: 12px;
+  padding: 20px;
+  p {
+    color: var(--gray-500);
+  }
+
+  h3 {
+    color: var(--gray-600);
+    padding-block: 20px 8px;
+  }
+
+}
+
+.unico-jeito-que-consegui-de-alinhar-ao-centro {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
